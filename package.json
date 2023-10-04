@@ -1,0 +1,16 @@
+{
+  "name": "trillo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass-dev": "sass --watch --update --style=expanded sass/main.scss:css/style.css",
+    "sass-comp": "sass --update --style=expanded sass/main.scss:css/style.comp.css",
+    "sass-prod": "sass --no-source-map --style=compressed sass/main.scss:css/style.css"
+  },
+  "author": "Rajneesh Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.66.1"
+  }
+}
